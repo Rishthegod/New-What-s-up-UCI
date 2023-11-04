@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title of the website</title>
+    <title>What's Up UCI</title>
     <link rel = "stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,15 +13,12 @@
 <body>
     <section class="header">
         <nav>
-            <a href="index.html"><img src = "images/logo.png"></a>
+            <a href="index.html"><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/1200px-University_of_California%2C_Irvine_seal.svg.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-bars" onclick="hideMenu()"></i>
                 <ul>
-                    <li><a href = "">HOME</a></li>
-                    <li><a href = "">ABOUT</a></li>
-                    <li><a href = "">COURSE</a></li>
-                    <li><a href = "">BLOG</a></li>
-                    <li><a href = "">CONTACT</a></li>
+                    <li><a href = "start.html">HOME</a></li>
+                    <li><a href = "aboutus.html">ABOUT</a></li>
                     <li id="google_translate_element"></li>
                 </ul>
             </div>
@@ -29,33 +26,40 @@
 
         </nav>
     <div class = "text-box">
-        <h1>World's Biggest University</h1>
-        <p>Making a website is now one of <br> the easiest things
+        <h1>WHAT'S UP UCI?</h1>
+        <p>Build your own events planner!<br>
         </p>
-        <a href="" class = "hero-btn">Visit Us to Know More</a>
+        <!-- <a href="" class = "hero-btn">Visit Us to Know More</a> -->
     </div>
 
     </section>
 
     <!----------COURSE---------->
     <section class = "course">
-        <h1>Courses we Offer</h1>
-        <p>Lorem ipsum dolor sit amet</p>
+        <h1>Club Types</h1>
+        <p>Click on the type of club events you want to attend</p>
         
         <div class = "row">
             <div class="course-col">
-                <h3>Intermediate</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <h3><a href = "cultural.html">CULTURAL</a></h3>
             </div>
             <div class="course-col">
-                <h3>Degree</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <h3><a href = "religious.html">RELIGIOUS</a></h3>
             </div>
             <div class="course-col">
-                <h3>Post Graduation</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
+                <h3><a href = "sports.html">SPORTS</a></h3>
              </div>   
-
+        </div>
+        <div class = "row">
+             <div class="course-col">
+                <h3><a href = "greeklife.html">GREEK LIFE</a></h3>
+             </div>  
+             <div class="course-col">
+                <h3><a href = "arts.html">ARTS</a></h3>
+             </div>  
+             <div class="course-col">
+                <h3><a href = "stem.html">STEM</a></h3>
+             </div>  
         </div>
     </section>
     <section class = "campus">
@@ -64,27 +68,48 @@
 
         <div class="row">
             <div class="campus-col">
-                <img src = "images/london.png">
+                <img src = "images/cultural.png">
                 <div class="layer">
-                    <h3>LONDON</h3>
+                    <h3><a href = "start.html">CULTURAL</a></h3>
                 </div>
             </div>
             <div class="campus-col">
-                <img src = "images/newyork.png">
+                <img src = "images/religious.png">
                 <div class="layer">
-                    <h3>NEW YORK</h3>
+                    <h3><a href = "start.html">RELIGIOUS</a></h3>
                 </div>
             </div>
             <div class="campus-col">
-                <img src = "images/washington.png">
+                <img src = "images/sports.png">
                 <div class="layer">
-                    <h3>WASHINGTON</h3>
+                    <h3><a href = "start.html">SPORTS</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="campus-col">
+                <img src = "images/greeklife.png">
+                <div class="layer">
+                    <h3><a href = "start.html">GREEK LIFE</a></h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src = "images/arts.png">
+                <div class="layer">
+                    <h3><a href = "start.html">ARTS</a></h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src = "images/stem.png">
+                <div class="layer">
+                    <h3><a href = "start.html">STEM</a></h3>
                 </div>
             </div>
         </div>
     </section>
     <!--------Facilities ------------->
     <section class="facilities">
+        <nav>
         <h1>Our Facilities</h1>
         <p>Lorem ipsum dolor sit amet.</p>
 
@@ -105,7 +130,7 @@
                 <p> Lorem dolor ipsum</p>
             </div>
         </div>
-
+    </nav>
     </section>
     <!-------------------JAVASCRIPT FOR TOGGLE MENU---------->
     <script>

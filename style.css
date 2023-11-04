@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/banner.png);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7));
     background-position: center;
     background-size: cover;
     position: relative;
@@ -19,7 +19,7 @@ nav{
     align-items: center;
 }
 nav img{
-    width: 150px;
+    width:60px;
 }
 .nav-links{
     flex:1;
@@ -85,6 +85,7 @@ nav img{
 nav .fa{
     display:none;
 }
+
 
 
 @media(max-width:700px){
@@ -170,8 +171,8 @@ h3{
     padding-top: 50px;
 }
 .campus-col{
-    flex-basis:32%;
-    border-radius: 10px;
+    flex-basis:40%;
+    border-radius: 80px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
@@ -218,9 +219,49 @@ h3{
 .sub-header{
     height: 50vh;
     width:100%;
-    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/background.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
     background-position: center;
     background-size: cover;
     text-align: center;
-    color:#fff
+    color:rgba(4,9,30,0.7)
+}
+
+.cultural_events{
+    width: 80%;
+    margin: auto;
+    text-align:center;
+    padding-top: 100px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+p{
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.cul{
+    flex-basis: 31%;;
+    background: rgba(4,9,30,0.7);
+    border-radius: 10px;
+    margin-bottom: 5%;;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.cul:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);;
 }
