@@ -22,7 +22,7 @@
                     <li><a href = "">COURSE</a></li>
                     <li><a href = "">BLOG</a></li>
                     <li><a href = "">CONTACT</a></li>
-
+                    <li id="google_translate_element"></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
@@ -118,5 +118,11 @@
         }
         
     </script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+        }
+        </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
