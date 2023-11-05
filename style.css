@@ -41,7 +41,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #363cf4;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -97,7 +97,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
-        background: #f44336;
+        background: #364ff4;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -293,3 +293,58 @@ h3{
     /* position: absolute; */
 
 }
+.login{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px;
+
+}
+/* 
+#authorize_button:active{
+    margin-top : 25px;
+}
+#authorize_button {  
+    text-align: center;
+    margin-top: 1px;
+    position: absolute;
+    width: 84px;
+    height: 45px; 
+    border: none;
+    color: white;   
+    font-size:14px;
+    font-weight:700;
+    color:rgba(0, 0, 0, 0.5);
+}
+*/
+
+.buttons {
+    display: inline-block;
+    text-decoration:none;
+    color:black;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background:transparent;
+    position: absolute;
+    text-align:center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    
+    } */
+.buttons{
+    text-align:center;
+    position:fixed;
+    display:flex;
+    justify-content: center;
+} 
+
+

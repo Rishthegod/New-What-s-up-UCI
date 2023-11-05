@@ -9,8 +9,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<!-- Alan AI - For Website Navigation using AI -->
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+rel="stylesheet"
+/>
+<!-- Alan AI - For Website Navigation using AI -->
+
 </head>
 <body>
+    <!-- Alan AI - For Website Navigation using AI -->
+<div class="alan-btn"></div>
+<!-- Alan AI - For Website Navigation using AI -->
+
     <section class="header">
         <nav>
             <a href="index.html"><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/1200px-University_of_California%2C_Irvine_seal.svg.png"></a>
@@ -63,74 +74,6 @@
              </div>  
         </div>
     </section>
-    <!-- <section class = "campus">
-        <h1>Our Global Campus</h1>
-        <p>Lorem Ipsum dolor sit amet</p>
-
-        <div class="row">
-            <div class="campus-col">
-                <img src = "images/cultural.png">
-                <div class="layer">
-                    <h3><a href = "start.html">CULTURAL</a></h3>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src = "images/religious.png">
-                <div class="layer">
-                    <h3><a href = "start.html">RELIGIOUS</a></h3>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src = "images/sports.png">
-                <div class="layer">
-                    <h3><a href = "start.html">SPORTS</a></h3>
-                </div>
-            </div>
-        </div> -->
-        <!-- <div class="row">
-            <div class="campus-col">
-                <img src = "images/greeklife.png">
-                <div class="layer">
-                    <h3><a href = "start.html">GREEK LIFE</a></h3>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src = "images/arts.png">
-                <div class="layer">
-                    <h3><a href = "start.html">ARTS</a></h3>
-                </div>
-            </div>
-            <div class="campus-col">
-                <img src = "images/stem.png">
-                <div class="layer">
-                    <h3><a href = "start.html">STEM</a></h3>
-                </div>
-            </div>
-        </div> -->
-    </section>
-    <!--------Facilities ------------->
-    <!-- <section class="facilities">
-        <nav>
-        <h1>Our Facilities</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
-
-        <div class="row">
-            <div class="facilities-col">
-                <img src="images/library.png">
-                <h3>World Class Library</h3>
-                <p> Lorem dolor ipsum</p>
-            </div>
-            <div class="facilities-col">
-                <img src="images/basketball.png">
-                <h3>Largest PlayGround</h3>
-                <p> Lorem dolor ipsum</p>
-            </div>
-            <div class="facilities-col">
-                <img src="images/cafeteria.png">
-                <h3>Healthy Food</h3>
-                <p> Lorem dolor ipsum</p>
-            </div>
-        </div> -->
     </nav>
 
     </section>
@@ -151,5 +94,30 @@
         }
         </script>
     <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script
+type="text/javascript"
+src="https://studio.alan.app/web/lib/alan_lib.min.js"
+></script>
+
+
+<!-- <script src="script.js"></script> -->
+<script>
+var alanBtnInstance = alanBtn({
+key: "56aeb915b90c3c507a6d94ac1f87598b2e956eca572e1d8b807a3e2338fdd0dc/stage",
+onCommand: function (commandData) {
+if (commandData.command === "login") {
+// Corrected the if statement
+// Call the client code that will react to the received command
+console.log("Hello");
+window.location.href = "login.html";
+} else {
+console.log(commandData.command);
+}
+},
+rootEl: document.getElementById("alan-btn"),
+});
+</script>
+<!-- Alan AI - For Website Navigation using AI -->
+
 </body>
 </html>

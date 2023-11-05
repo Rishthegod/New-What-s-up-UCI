@@ -9,37 +9,61 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<!-- Alan AI - For Website Navigation using AI -->
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+rel="stylesheet"
+/>
+<!-- Alan AI - For Website Navigation using AI -->
+
 </head>
 <body>
+    <!-- Alan AI - For Website Navigation using AI -->
+<div class="alan-btn"></div>
+<!-- Alan AI - For Website Navigation using AI -->
+
     <section class="sub-header">
         <nav>
-            <a href="index.html"><img src = "images/logo.png"></a>
+            <a href="index.html"><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/0/0e/University_of_California%2C_Irvine_seal.svg/1200px-University_of_California%2C_Irvine_seal.svg.png"></a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-bars" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href = "start.html">HOME</a></li>
                     <li><a href = "aboutus.html">ABOUT</a></li>
-                    <li><a href = "">COURSE</a></li>
-                    <li><a href = "">BLOG</a></li>
-                    <li><a href = "">CONTACT</a></li>
+                    <li><a href = "login.html">LOGIN</a></li>
                     <li id="google_translate_element"></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
 
         </nav>
-        <h1>About US</h1>
+
+
+
+
+        <h1 style="color:white;">ABOUT US</h1>
+        <h1 style="color:white;">WHAT'S UP UCI</h1>
+
 
     <div class = "text-box">
-        <h1>World's Biggest University</h1>
-        <p>Making a website is now one of <br> the easiest things
+        <li style="color:black;">Welcome to our event reminder website, your go-to platform for staying informed about the vibrant and diverse array of events happening at the University of California, Irvine (UCI) and beyond!
+
+
+            At our core, we are passionate about fostering a sense of community among UCI students and the wider community. We understand the importance of staying connected, exploring new interests, and making lasting memories during your academic journey. That's why we have curated a comprehensive list of events organized by various clubs and organizations, catering to the interests of both UCI and non-UCI students.
+           
+            Our platform serves as a centralized hub where you can effortlessly discover events ranging from educational workshops, cultural celebrations, sports tournaments, to social gatherings. We believe that exposure to diverse events enriches your college experience and helps you expand your horizons, both academically and socially.
+           
+            What sets us apart is our dedication to inclusivity. Whether you are a UCI student eager to explore campus activities or a non-UCI student seeking exciting events in the community, our website is designed to cater to your needs. We strive to bridge the gap between different groups, creating a shared space where everyone feels welcome and valued.</a></li>
+
+
         </p>
-        <a href="" class = "hero-btn">Visit Us to Know More</a>
+
+
     </div>
 
-    </section>
 
-    
+    </section>
+   
     <!-------------------JAVASCRIPT FOR TOGGLE MENU---------->
     <script>
         var navLinks=document.getElementById("navLinks");
@@ -49,13 +73,38 @@
         function hideMenu(){
             navLinks.style.right = "-200px"
         }
-        
+       
     </script>
     <script type="text/javascript">
         function googleTranslateElementInit() {
           new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
         }
         </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-</body>
-</html>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <script
+      type="text/javascript"
+      src="https://studio.alan.app/web/lib/alan_lib.min.js"
+      ></script>
+      
+      
+      <!-- <script src="script.js"></script> -->
+      <script>
+      var alanBtnInstance = alanBtn({
+      key: "56aeb915b90c3c507a6d94ac1f87598b2e956eca572e1d8b807a3e2338fdd0dc/stage",
+      onCommand: function (commandData) {
+      if (commandData.command === "login") {
+      // Corrected the if statement
+      // Call the client code that will react to the received command
+      console.log("Hello");
+      window.location.href = "login.html";
+      } else {
+      console.log(commandData.command);
+      }
+      },
+      rootEl: document.getElementById("alan-btn"),
+      });
+      </script>
+      <!-- Alan AI - For Website Navigation using AI -->
+      
+  </body>
+  </html>
